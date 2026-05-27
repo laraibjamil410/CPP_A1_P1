@@ -211,3 +211,57 @@ int main() {
     return 0;
 }
 
+//  whether a number is divisible by 5 or not
+#include<iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"Enter a number "<<endl;
+    cin>>num;
+    if(num%5==0){
+        cout<<"number is divisible by 5"<<endl;
+    }
+    else {
+        cout<<"number is not divisible by 5"<<endl;
+    }
+}
+
+//  to find absolute value of a number
+#include<iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"enter a number : "<<endl;
+    cin>>num;
+    if(num>=0){
+        cout<<"Absolute value of a number is"<<num<<endl;
+    }
+    else {
+       
+        cout<<n;
+    }
+}
+
+
+// take cost price and selling price from user and find whether he incurred profit or loss and also calculate.
+include<iostream>
+using namespace std;
+int main(){
+    int cp,sp;
+    cout<<"Enter costprice : "<<endl;
+    cin>>cp;
+    cout<<"Enter selling price"<<endl;
+    cin>>sp;
+      if(sp>cp)
+      {cout<<"Seller has made profit "<<sp-cp<<endl;
+    }
+    else if( cp>sp) {
+        cout<<"Seller has made loss"<<sp-cp<<endl; 
+               
+else{
+        cout<<"no profit no loss"<<endl;
+     }
+
+    }
+
+    
