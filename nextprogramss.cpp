@@ -264,4 +264,74 @@ else{
 
     }
 
+//  Take input percentage of a student and print the grade accoring to marks:
+// 81-100 Very Good 
+// 61-80 Good
+// 41-60 Average
+// <=39 fail
+ #include<iostream>
+using namespace std;
+int main(){
+    int marks;
+    cout<<"Enter your marks "<<endl;
+    cin>>marks;
+    if (marks>=81 && marks<=100)
+    cout<<" Grade A"<<endl;
+    else if (marks>=61 && marks<=80)
+    cout<<"Grade B "<<endl;
+    else if (marks>=40 && marks<=60)     
+    cout<<"Average  "<<endl;
+    else if( marks<=39 )
+    cout<<" you are not pass"<<endl;
+    else 
+    cout<<"In valid marks"<<endl;
+}
+
+// Take ages of 3 users as input and display the age of yougest one using nested if
+#include<iostream>
+using namespace std;
+int main() {
+    int age1,age2,age3;
+    cout<<"Enter age of user 1 : "<<endl;
+    cin>>age1;
+    cout<<"Enter age of user 2 : "<<endl;
+    cin>>age2;
+     cout<<"Enter age of user 3 : "<<endl;
+    cin>>age3;
+    if(age1 < age2)
+     { if(age1 < age3)
+        {
+        cout<<" user 1 is yougest "<<endl;
+      } 
+      else {
+        cout<<" user 3 is youngest "<<endl;
+      }                                                      own
+    }
+    else 
+          {  if(age2< age3)
+            { cout<<"user 2 is youngest "<<endl;
+          }
+          else {
+            cout<<"user 3 is youngest "<<endl;
+          }
+    }
+}
+
+// Write a program to find whether three sides side of triangle are same or not
+#include<iostream>
+using namespace std;
+int main() {
+    int a,b,c;
+    cout<<"Enter sides of triangle"<<endl;
+    cin>>a>>b>>c;
+    if ((a+b)>c && (b+c)>a && (a+c)>b)
+    {
+        cout<<"sides of triangle are same "<<endl;
+    }
+else {
+    cout<<" sides of triangle are not same";
+}
+}
+
+
     
