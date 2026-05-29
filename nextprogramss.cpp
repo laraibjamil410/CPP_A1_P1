@@ -305,7 +305,7 @@ int main() {
       } 
       else {
         cout<<" user 3 is youngest "<<endl;
-      }                                                      own
+      }                                                      
     }
     else 
           {  if(age2< age3)
@@ -331,7 +331,36 @@ int main() {
 else {
     cout<<" sides of triangle are not same";
 }
+  
 }
+// program to find area and perimeter of rectangle and to find whether the area of rectangle is greater than it's perimeter or not.
+#include<iostream>
+using namespace std;
+int main(){
+    float length,width,area,perimeter;
+    int choice;
+     cout<<"enter length of rectangle "<<endl;
+     cin>>length;
+    cout<<"enter width of rectangle "<<endl;
+    cin>>width;
+    area = length*width;
+     perimeter = 2*(length+width);
+    cout<<"area is : "<<area<<endl;
+    cout<<"TO FIND PERIMETER ENTER 1 "<<endl;
+    cin>>choice;                                        
+     if(choice==1){
+        cout<<"perimeter is : "<<perimeter<<endl<<endl;
+     }
+    else {
+            cout<<"you havn't calculate the perimeter "<<endl;
+         }
+    
+       if(area>perimeter)
+    {
+        cout<<"area of rectangle is greater than its perimeter";
+    }
+    }
+
 
 
     
